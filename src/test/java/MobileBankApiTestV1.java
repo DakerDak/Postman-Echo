@@ -18,7 +18,7 @@ public class MobileBankApiTestV1 {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("test1 data"))
+                .body("data", equalTo("test data"))
         ;
     }
 }
